@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "Configurateur Taya",
+    "subtitle": "Composez votre fauteuil",
+    "skipToContent": "Aller au contenu"
+  },
+  "actions": {
+    "next": "Suivant",
+    "back": "Retour",
+    "reset": "Réinitialiser",
+    "downloadPdf": "Télécharger le résumé PDF",
+    "requestQuote": "Demander un devis",
+    "submit": "Envoyer",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "viewSummary": "Voir le résumé"
+  },
+  "aria": {
+    "themeToggle": "Changer le thème",
+    "languageSwitcher": "Changer la langue",
+    "scene": "Aperçu en trois dimensions du fauteuil configuré",
+    "frameSwatch": "Couleur du cadre {{name}}",
+    "upholsterySwatch": "Couleur de la garniture {{name}}"
+  },
+  "steps": {
+    "model": "Modèle",
+    "frame": "Cadre",
+    "wheels": "Roues",
+    "upholstery": "Garniture",
+    "armrests": "Accoudoirs",
+    "footrests": "Repose-pieds",
+    "backrest": "Dossier",
+    "accessories": "Accessoires",
+    "summary": "Résumé"
+  },
+  "stepHelp": {
+    "model": "Choisissez la plate-forme de fauteuil adaptée à votre quotidien.",
+    "frame": "Choisissez la couleur et la finition du cadre.",
+    "wheels": "Choisissez le style de roue et la couleur des pneus.",
+    "upholstery": "Définissez le tissu du siège et du dossier.",
+    "armrests": "Configurez le style et l'ergonomie des accoudoirs.",
+    "footrests": "Sélectionnez le mécanisme des repose-pieds.",
+    "backrest": "Ajustez la hauteur du dossier et le soutien lombaire.",
+    "accessories": "Ajoutez les accessoires qui correspondent à votre quotidien."
+  },
+  "models": {
+    "miniAir": {
+      "name": "Mini Air",
+      "description": "Fauteuil actif à cadre rigide ultra-léger pour une utilisation quotidienne dynamique.",
+      "feat1": "Cadre rigide en aluminium — moins de 9 kg",
+      "feat2": "Silhouette sportive et compacte",
+      "feat3": "Nombreuses options de roues et de finition"
+    },
+    "standard": {
+      "name": "Standard",
+      "description": "Fauteuil manuel pliant classique avec poignées de poussée, accoudoirs rembourrés et repose-pieds escamotables.",
+      "feat1": "Cadre pliable en X pour un transport facile",
+      "feat2": "Accoudoirs rembourrés et repose-pieds avec sangle de mollet",
+      "feat3": "Poignées de poussée et barres anti-bascule intégrées"
+    }
+  },
+  "frame": {
+    "colors": {
+      "graphite": "Graphite",
+      "snow": "Blanc neige",
+      "titanium": "Titane",
+      "midnight": "Bleu nuit",
+      "forest": "Vert forêt",
+      "sage": "Vert olive",
+      "ruby": "Rouge rubis",
+      "sunrise": "Orange aurore",
+      "champagne": "Champagne",
+      "cobalt": "Bleu cobalt"
+    },
+    "finish": {
+      "title": "Finition",
+      "matte": "Mat",
+      "satin": "Satiné",
+      "gloss": "Brillant"
+    },
+    "colorTitle": "Couleur"
+  },
+  "wheels": {
+    "styleTitle": "Style de roue",
+    "tireTitle": "Couleur du pneu",
+    "style": {
+      "spoke": "Rayons",
+      "mag": "Mag",
+      "solid": "Pleine"
+    },
+    "tire": {
+      "black": "Noir",
+      "grey": "Gris",
+      "white": "Blanc"
+    }
+  },
+  "upholstery": {
+    "colorTitle": "Couleur du tissu",
+    "materialTitle": "Matériau",
+    "colors": {
+      "obsidian": "Obsidienne",
+      "smoke": "Fumée",
+      "sand": "Sable",
+      "navy": "Marine",
+      "moss": "Mousse",
+      "claret": "Bordeaux"
+    },
+    "material": {
+      "mesh": "Maille respirante",
+      "vinyl": "Vinyle facile à nettoyer",
+      "foam": "Mousse à mémoire"
+    }
+  },
+  "armrests": {
+    "styleTitle": "Style",
+    "adjustableTitle": "Réglable en hauteur",
+    "style": {
+      "full": "Longueur complète",
+      "desk": "Type bureau",
+      "none": "Aucun"
+    }
+  },
+  "footrests": {
+    "styleTitle": "Type de repose-pieds",
+    "colorMatchTitle": "Assortir au cadre",
+    "style": {
+      "swingAway": "Escamotable",
+      "elevating": "Inclinable",
+      "fixed": "Fixe"
+    }
+  },
+  "backrest": {
+    "heightTitle": "Hauteur",
+    "lumbarTitle": "Soutien lombaire",
+    "height": {
+      "low": "Bas",
+      "mid": "Moyen",
+      "high": "Haut"
+    }
+  },
+  "accessories": {
+    "headrest": "Appuie-tête",
+    "antiTip": "Anti-bascule",
+    "cupHolder": "Porte-gobelet",
+    "bag": "Sacoche",
+    "sideGuards": "Protections latérales"
+  },
+  "summary": {
+    "title": "Votre configuration",
+    "subtitle": "Vérifiez chaque choix avant de demander un devis.",
+    "specSheet": "Fiche technique",
+    "base": "Prix de base",
+    "total": "Total",
+    "included": "Inclus",
+    "disclaimer": "Tarifs indicatifs. Le devis final comprend l'évaluation, la livraison et les taxes.",
+    "snapshot": "Aperçu"
+  },
+  "compat": {
+    "elevatingNoArmrests": "Les repose-pieds inclinables sont recommandés avec des accoudoirs pour la stabilité.",
+    "highBackrestHeadrest": "Un dossier haut s'associe parfaitement à un appuie-tête.",
+    "solidWheelsGlossFrame": "Les roues pleines ne sont pas disponibles avec une finition brillante. Choisissez mat ou satiné.",
+    "magFoamWeight": "Roues Mag et mousse à mémoire augmentent légèrement le poids total.",
+    "whiteTiresMaintenance": "Les pneus blancs demandent un entretien plus fréquent.",
+    "lumbarLowBackrest": "Le soutien lombaire nécessite un dossier moyen ou haut.",
+    "elevatingNoAntiTip": "Anti-bascule fortement recommandé avec les repose-pieds inclinables.",
+    "deskArmrestsSideGuards": "Les accoudoirs type bureau s'accordent bien avec les protections latérales.",
+    "standardMagWheels": "Les roues mag fonctionnent sur le cadre Standard mais augmentent légèrement le poids total.",
+    "standardNoArmrests": "Le modèle Standard est conçu avec des accoudoirs — conservez au moins des accoudoirs de bureau pour la stabilité."
+  },
+  "quote": {
+    "title": "Demander un devis personnalisé",
+    "subtitle": "Envoyez votre configuration — un spécialiste vous répondra rapidement.",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "role": "Je suis…",
+    "roleUser": "Particulier",
+    "roleDealer": "Revendeur / clinicien",
+    "notes": "Informations utiles (optionnel)",
+    "submitted": "Merci — votre configuration a été enregistrée.",
+    "submittedBody": "Un spécialiste vous contactera prochainement avec un devis détaillé.",
+    "errors": {
+      "name": "Veuillez indiquer votre nom complet.",
+      "email": "Veuillez saisir un e-mail valide."
+    }
+  },
+  "footer": {
+    "rights": "© {{year}} Taya Europe GmbH",
+    "iso": "Certifié ISO 13485",
+    "ce": "Conforme CE MDR"
+  },
+  "controls": {
+    "drag": "Glisser pour tourner · Défiler pour zoomer"
+  }
+}

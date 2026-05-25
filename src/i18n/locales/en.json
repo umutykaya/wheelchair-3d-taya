@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "Taya Configurator",
+    "subtitle": "Compose your build",
+    "skipToContent": "Skip to content"
+  },
+  "actions": {
+    "next": "Next",
+    "back": "Back",
+    "reset": "Reset",
+    "downloadPdf": "Download PDF Summary",
+    "requestQuote": "Request a Quote",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "viewSummary": "View summary"
+  },
+  "aria": {
+    "themeToggle": "Toggle theme",
+    "languageSwitcher": "Switch language",
+    "scene": "Three-dimensional preview of the configured wheelchair",
+    "frameSwatch": "Frame color {{name}}",
+    "upholsterySwatch": "Upholstery color {{name}}"
+  },
+  "steps": {
+    "model": "Model",
+    "frame": "Frame",
+    "wheels": "Wheels",
+    "upholstery": "Upholstery",
+    "armrests": "Armrests",
+    "footrests": "Footrests",
+    "backrest": "Backrest",
+    "accessories": "Accessories",
+    "summary": "Summary"
+  },
+  "stepHelp": {
+    "model": "Choose the wheelchair platform that fits your lifestyle.",
+    "frame": "Pick the chassis color and surface finish.",
+    "wheels": "Choose the drive wheel style and tire color.",
+    "upholstery": "Set the seat and back fabric.",
+    "armrests": "Configure armrest style and ergonomics.",
+    "footrests": "Select the footrest mechanism.",
+    "backrest": "Tune backrest height and lumbar support.",
+    "accessories": "Add the extras that fit your daily routine."
+  },
+  "models": {
+    "miniAir": {
+      "name": "Mini Air",
+      "description": "Ultralight rigid-frame active chair tuned for everyday performance.",
+      "feat1": "Rigid aluminium frame — under 9 kg",
+      "feat2": "Low-profile, sporty silhouette",
+      "feat3": "Highly customisable wheel & finish options"
+    },
+    "standard": {
+      "name": "Standard",
+      "description": "Classic folding manual wheelchair with push handles, padded armrests and swing-away footrests.",
+      "feat1": "Foldable X-frame for easy transport",
+      "feat2": "Full padded armrests and calf-strap footrests",
+      "feat3": "Built-in push handles and tipping bars"
+    }
+  },
+  "frame": {
+    "colors": {
+      "graphite": "Graphite",
+      "snow": "Snow White",
+      "titanium": "Titanium",
+      "midnight": "Midnight Blue",
+      "forest": "Forest Green",
+      "sage": "Olive Sage",
+      "ruby": "Ruby Red",
+      "sunrise": "Sunrise Orange",
+      "champagne": "Champagne Gold",
+      "cobalt": "Cobalt Blue"
+    },
+    "finish": {
+      "title": "Finish",
+      "matte": "Matte",
+      "satin": "Satin",
+      "gloss": "Gloss"
+    },
+    "colorTitle": "Color"
+  },
+  "wheels": {
+    "styleTitle": "Wheel style",
+    "tireTitle": "Tire color",
+    "style": {
+      "spoke": "Spoke",
+      "mag": "Mag",
+      "solid": "Solid"
+    },
+    "tire": {
+      "black": "Black",
+      "grey": "Grey",
+      "white": "White"
+    }
+  },
+  "upholstery": {
+    "colorTitle": "Fabric color",
+    "materialTitle": "Material",
+    "colors": {
+      "obsidian": "Obsidian",
+      "smoke": "Smoke",
+      "sand": "Sand",
+      "navy": "Navy",
+      "moss": "Moss",
+      "claret": "Claret"
+    },
+    "material": {
+      "mesh": "Breathable mesh",
+      "vinyl": "Wipe-clean vinyl",
+      "foam": "Memory foam"
+    }
+  },
+  "armrests": {
+    "styleTitle": "Style",
+    "adjustableTitle": "Height adjustable",
+    "style": {
+      "full": "Full length",
+      "desk": "Desk length",
+      "none": "None"
+    }
+  },
+  "footrests": {
+    "styleTitle": "Footrest type",
+    "colorMatchTitle": "Match frame color",
+    "style": {
+      "swingAway": "Swing-away",
+      "elevating": "Elevating",
+      "fixed": "Fixed"
+    }
+  },
+  "backrest": {
+    "heightTitle": "Height",
+    "lumbarTitle": "Lumbar support",
+    "height": {
+      "low": "Low",
+      "mid": "Mid",
+      "high": "High"
+    }
+  },
+  "accessories": {
+    "headrest": "Headrest",
+    "antiTip": "Anti-tip bars",
+    "cupHolder": "Cup holder",
+    "bag": "Underseat bag",
+    "sideGuards": "Side guards"
+  },
+  "summary": {
+    "title": "Your build",
+    "subtitle": "Review every decision before requesting a quote.",
+    "specSheet": "Specification sheet",
+    "base": "Base price",
+    "total": "Total",
+    "included": "Included",
+    "disclaimer": "Indicative pricing. Final quote includes fitting assessment, shipping, and applicable taxes.",
+    "snapshot": "Preview snapshot"
+  },
+  "compat": {
+    "elevatingNoArmrests": "Elevating footrests are recommended together with armrests for stability.",
+    "highBackrestHeadrest": "High backrest pairs beautifully with the headrest.",
+    "solidWheelsGlossFrame": "Solid wheels are not available with a gloss frame finish. Choose matte or satin.",
+    "magFoamWeight": "Mag wheels with foam upholstery slightly increases total weight.",
+    "whiteTiresMaintenance": "White tires need more frequent cleaning to keep their look.",
+    "lumbarLowBackrest": "Lumbar support requires a mid or high backrest.",
+    "elevatingNoAntiTip": "Anti-tip bars are strongly recommended with elevating footrests.",
+    "deskArmrestsSideGuards": "Desk armrests pair nicely with side guards for table clearance.",
+    "standardMagWheels": "Mag wheels work on the Standard frame but slightly increase the overall weight.",
+    "standardNoArmrests": "The Standard model is designed with armrests — consider keeping at least desk-length armrests for stability."
+  },
+  "quote": {
+    "title": "Request a personalized quote",
+    "subtitle": "Submit your build and a specialist will follow up shortly.",
+    "name": "Full name",
+    "email": "Email address",
+    "role": "I am a…",
+    "roleUser": "Private user",
+    "roleDealer": "Mobility dealer / clinician",
+    "notes": "Anything we should know (optional)",
+    "submitted": "Thank you — your build has been saved.",
+    "submittedBody": "A specialist will contact you shortly with a detailed quote and the nearest fitter.",
+    "errors": {
+      "name": "Please share your full name.",
+      "email": "Please enter a valid email."
+    }
+  },
+  "footer": {
+    "rights": "© {{year}} Taya Europe GmbH",
+    "iso": "ISO 13485 Certified",
+    "ce": "CE MDR Compliant"
+  },
+  "controls": {
+    "drag": "Drag to rotate · Scroll to zoom"
+  }
+}

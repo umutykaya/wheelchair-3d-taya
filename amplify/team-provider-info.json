@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wheelconfigstudio-dev-2ba8f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::585008043730:role/amplify-wheelconfigstudio-dev-2ba8f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::585008043730:role/amplify-wheelconfigstudio-dev-2ba8f-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-wheelconfigstudio-dev-2ba8f-deployment",
+      "UnauthRoleName": "amplify-wheelconfigstudio-dev-2ba8f-unauthRole",
+      "StackName": "amplify-wheelconfigstudio-dev-2ba8f",
+      "StackId": "arn:aws:cloudformation:eu-west-1:585008043730:stack/amplify-wheelconfigstudio-dev-2ba8f/17f4b5f0-5456-11f1-af01-066408309e33",
+      "AmplifyAppId": "d1sqis58s54t8x"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}

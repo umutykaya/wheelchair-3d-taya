@@ -1,0 +1,194 @@
+{
+  "app": {
+    "title": "Taya Konfigurator",
+    "subtitle": "Stellen Sie Ihren Rollstuhl zusammen",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "actions": {
+    "next": "Weiter",
+    "back": "Zurück",
+    "reset": "Zurücksetzen",
+    "downloadPdf": "PDF-Übersicht herunterladen",
+    "requestQuote": "Angebot anfordern",
+    "submit": "Absenden",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "viewSummary": "Zusammenfassung"
+  },
+  "aria": {
+    "themeToggle": "Theme wechseln",
+    "languageSwitcher": "Sprache wechseln",
+    "scene": "Dreidimensionale Vorschau des konfigurierten Rollstuhls",
+    "frameSwatch": "Rahmenfarbe {{name}}",
+    "upholsterySwatch": "Polsterfarbe {{name}}"
+  },
+  "steps": {
+    "model": "Modell",
+    "frame": "Rahmen",
+    "wheels": "Räder",
+    "upholstery": "Polsterung",
+    "armrests": "Armlehnen",
+    "footrests": "Fußstützen",
+    "backrest": "Rückenlehne",
+    "accessories": "Zubehör",
+    "summary": "Übersicht"
+  },
+  "stepHelp": {
+    "model": "Wählen Sie die Rollstuhl-Plattform, die zu Ihrem Alltag passt.",
+    "frame": "Wählen Sie Farbe und Oberfläche des Rahmens.",
+    "wheels": "Wählen Sie Radtyp und Reifenfarbe.",
+    "upholstery": "Bestimmen Sie den Stoff für Sitz und Rücken.",
+    "armrests": "Konfigurieren Sie Armlehnenstil und Ergonomie.",
+    "footrests": "Wählen Sie den Fußstützen-Mechanismus.",
+    "backrest": "Höhe und Lendenstütze einstellen.",
+    "accessories": "Fügen Sie passendes Zubehör hinzu."
+  },
+  "models": {
+    "miniAir": {
+      "name": "Mini Air",
+      "description": "Ultraleichter Starrrahmen-Aktivrollstuhl für den dynamischen Alltag.",
+      "feat1": "Starrer Aluminiumrahmen — unter 9 kg",
+      "feat2": "Schlanke, sportliche Silhouette",
+      "feat3": "Vielfältige Rad- und Lackoptionen"
+    },
+    "standard": {
+      "name": "Standard",
+      "description": "Klassischer faltbarer Rollstuhl mit Schiebegriffen, gepolsterten Armlehnen und wegschwenkbaren Fußstützen.",
+      "feat1": "Faltbarer X-Rahmen für einfachen Transport",
+      "feat2": "Gepolsterte Armlehnen und Wadengurt-Fußstützen",
+      "feat3": "Integrierte Schiebegriffe und Kippschutzstangen"
+    }
+  },
+  "frame": {
+    "colors": {
+      "graphite": "Graphit",
+      "snow": "Schneeweiß",
+      "titanium": "Titan",
+      "midnight": "Mitternachtsblau",
+      "forest": "Waldgrün",
+      "sage": "Olivgrün",
+      "ruby": "Rubinrot",
+      "sunrise": "Sonnenorange",
+      "champagne": "Champagner",
+      "cobalt": "Kobaltblau"
+    },
+    "finish": {
+      "title": "Finish",
+      "matte": "Matt",
+      "satin": "Seidenmatt",
+      "gloss": "Glänzend"
+    },
+    "colorTitle": "Farbe"
+  },
+  "wheels": {
+    "styleTitle": "Radtyp",
+    "tireTitle": "Reifenfarbe",
+    "style": {
+      "spoke": "Speiche",
+      "mag": "Mag",
+      "solid": "Vollrad"
+    },
+    "tire": {
+      "black": "Schwarz",
+      "grey": "Grau",
+      "white": "Weiß"
+    }
+  },
+  "upholstery": {
+    "colorTitle": "Stofffarbe",
+    "materialTitle": "Material",
+    "colors": {
+      "obsidian": "Obsidian",
+      "smoke": "Rauch",
+      "sand": "Sand",
+      "navy": "Marine",
+      "moss": "Moos",
+      "claret": "Bordeaux"
+    },
+    "material": {
+      "mesh": "Atmungsaktives Mesh",
+      "vinyl": "Pflegeleichtes Vinyl",
+      "foam": "Memory-Schaum"
+    }
+  },
+  "armrests": {
+    "styleTitle": "Stil",
+    "adjustableTitle": "Höhenverstellbar",
+    "style": {
+      "full": "Lang",
+      "desk": "Schreibtisch",
+      "none": "Keine"
+    }
+  },
+  "footrests": {
+    "styleTitle": "Fußstützentyp",
+    "colorMatchTitle": "Rahmenfarbe übernehmen",
+    "style": {
+      "swingAway": "Wegschwenkbar",
+      "elevating": "Hochstellbar",
+      "fixed": "Fest"
+    }
+  },
+  "backrest": {
+    "heightTitle": "Höhe",
+    "lumbarTitle": "Lendenstütze",
+    "height": {
+      "low": "Niedrig",
+      "mid": "Mittel",
+      "high": "Hoch"
+    }
+  },
+  "accessories": {
+    "headrest": "Kopfstütze",
+    "antiTip": "Kippschutz",
+    "cupHolder": "Getränkehalter",
+    "bag": "Sitztasche",
+    "sideGuards": "Seitenteile"
+  },
+  "summary": {
+    "title": "Ihr Aufbau",
+    "subtitle": "Prüfen Sie alle Entscheidungen vor der Angebotsanfrage.",
+    "specSheet": "Spezifikation",
+    "base": "Grundpreis",
+    "total": "Gesamt",
+    "included": "Inklusive",
+    "disclaimer": "Indikative Preise. Endpreis inkl. Anpassung, Versand und Steuern.",
+    "snapshot": "Vorschau"
+  },
+  "compat": {
+    "elevatingNoArmrests": "Hochstellbare Fußstützen werden mit Armlehnen für mehr Stabilität empfohlen.",
+    "highBackrestHeadrest": "Eine hohe Rückenlehne harmoniert hervorragend mit der Kopfstütze.",
+    "solidWheelsGlossFrame": "Vollräder sind nicht mit glänzendem Rahmen kombinierbar. Bitte Matt oder Seidenmatt wählen.",
+    "magFoamWeight": "Mag-Räder mit Memory-Schaum erhöhen das Gesamtgewicht leicht.",
+    "whiteTiresMaintenance": "Weiße Reifen erfordern häufigere Pflege.",
+    "lumbarLowBackrest": "Lendenstütze erfordert eine mittlere oder hohe Rückenlehne.",
+    "elevatingNoAntiTip": "Kippschutz wird mit hochstellbaren Fußstützen dringend empfohlen.",
+    "deskArmrestsSideGuards": "Schreibtisch-Armlehnen und Seitenteile ergänzen sich für die Tischfreiheit.",
+    "standardMagWheels": "Mag-Räder sind am Standard-Rahmen möglich, erhöhen aber das Gesamtgewicht leicht.",
+    "standardNoArmrests": "Das Standard-Modell ist auf Armlehnen ausgelegt — wir empfehlen mindestens Schreibtisch-Armlehnen für die Stabilität."
+  },
+  "quote": {
+    "title": "Persönliches Angebot anfordern",
+    "subtitle": "Senden Sie uns Ihre Konfiguration — wir melden uns zeitnah.",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "role": "Ich bin…",
+    "roleUser": "Privatkunde",
+    "roleDealer": "Fachhändler / Klinik",
+    "notes": "Anmerkungen (optional)",
+    "submitted": "Vielen Dank — Ihre Konfiguration ist gespeichert.",
+    "submittedBody": "Ein Spezialist meldet sich in Kürze mit einem detaillierten Angebot.",
+    "errors": {
+      "name": "Bitte vollständigen Namen angeben.",
+      "email": "Bitte gültige E-Mail eingeben."
+    }
+  },
+  "footer": {
+    "rights": "© {{year}} Taya Europe GmbH",
+    "iso": "ISO 13485 zertifiziert",
+    "ce": "CE MDR konform"
+  },
+  "controls": {
+    "drag": "Ziehen zum Drehen · Scrollen zum Zoomen"
+  }
+}

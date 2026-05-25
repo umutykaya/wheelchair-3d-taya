@@ -1,0 +1,23 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - curl -fsSL https://bun.sh/install | bash
+        - export BUN_INSTALL="$HOME/.bun"
+        - export PATH="$BUN_INSTALL/bin:$PATH"
+        - bun install
+    build:
+      commands:
+        - export BUN_INSTALL="$HOME/.bun"
+        - export PATH="$BUN_INSTALL/bin:$PATH"
+        - bun run build
+        - node scripts/gen-static-html.mjs
+  artifacts:
+    baseDirectory: dist/client
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+      - .bun/**/*
