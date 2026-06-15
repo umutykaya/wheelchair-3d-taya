@@ -9,7 +9,7 @@
     "build:dev": "vite build --mode development",
     "build:static": "vite build && node scripts/gen-static-html.mjs",
     "gen-html": "node scripts/gen-static-html.mjs",
-    "preview": "vite preview",
+    "preview": "bun run build:static && bunx serve dist/client -p 4173",
     "lint": "eslint .",
     "format": "prettier --write ."
   },

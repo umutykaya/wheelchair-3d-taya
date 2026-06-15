@@ -8,7 +8,7 @@
     "config": {
       "SourceDir": "src",
       "DistributionDir": "dist/client",
-      "BuildCommand": "bun run build",
+      "BuildCommand": "bun run build:static",
       "StartCommand": "bun run dev"
     }
   },
